@@ -20,3 +20,16 @@
 .about-copy>p:not(.eyebrow):not(.lead),.quality-copy>p:not(.eyebrow),.manufacturing-heading>p,.difference-grid>div>p:not(.eyebrow),.partnership p:not(.eyebrow),.section-intro{font-size:17px}
 .hero-visual .hero-photo>img{will-change:transform}
 @media(prefers-reduced-motion:reduce){.hero-visual .hero-photo>img{transform:scale(1.04);will-change:auto}}
+
+/* Homepage headings below the hero. */
+body:not(.catalogue-page) #main > section:not(.hero) :is(h2, h3, h4, h5, h6),
+body:not(.catalogue-page) #main > section:not(.hero) :is(h2, h3, h4, h5, h6) :is(span, em, strong),
+body:not(.catalogue-page) .footer .footer-column h2 {
+  font-weight: 800;
+}
+
+/* Keep application card titles readable over the dark image overlay. */
+#applications .application-tile h3 {
+  color: #fff;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, .35);
+}

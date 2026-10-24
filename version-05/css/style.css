@@ -58,3 +58,33 @@ h1,h2,h3,h4,h5,h6,.hero h1,.story-copy h2,.products-head h2,.quality-heading h2,
 @media(min-width:761px) and (max-width:1000px){.desktop-nav{display:none}.menu-toggle{position:relative;display:flex;width:38px;height:38px;flex-direction:column;align-items:center;justify-content:center;gap:5px;padding:0;border:1px solid var(--line);border-radius:50%;background:transparent;cursor:pointer}.menu-toggle span{display:block;width:14px;height:1px;background:var(--ink);transition:transform .2s}.menu-toggle[aria-expanded=true] span:first-child{transform:translateY(3px) rotate(45deg)}.menu-toggle[aria-expanded=true] span:last-child{transform:translateY(-3px) rotate(-45deg)}.mobile-menu{position:fixed;inset:0;z-index:80;display:flex;flex-direction:column;padding:26px 25px 28px;background:var(--cloud);opacity:0;visibility:hidden;transform:translateX(15px);transition:opacity .28s,visibility .28s,transform .28s var(--ease)}.mobile-menu.is-open{opacity:1;visibility:visible;transform:translateX(0)}.mobile-menu-top{display:flex;align-items:center;justify-content:space-between;padding-bottom:17px;border-bottom:1px solid var(--line)}.mobile-menu-top .mono-label{color:#777d8e;font-size:10px}.mobile-close{display:flex;align-items:center;gap:9px;padding:6px 0 6px 12px;border:0;background:transparent;color:#61677a;font-size:12.5px;cursor:pointer}.mobile-close span{display:grid;width:27px;height:27px;place-items:center;border-radius:50%;background:var(--lavender);color:var(--ink);font-size:21.25px}.mobile-links{display:flex;flex-direction:column;padding-top:21px}.mobile-links a{display:grid;grid-template-columns:32px 1fr 20px;align-items:center;gap:8px;padding:17px 0;border-bottom:1px solid var(--line);font:500 clamp(27.5px,7.5vw,37.5px) var(--heading);letter-spacing:-.055em}.mobile-links a>span{align-self:start;padding-top:8px;color:var(--cyan-deep);font:10px var(--mono);letter-spacing:.05em}.mobile-links a>i{color:var(--violet);font-size:16.25px;font-style:normal}.mobile-search{margin-top:26px}.mobile-search label{color:#73798c;font-size:11.25px}.mobile-search .search-input-row{min-height:45px}.mobile-search .search-input-row button{height:43px}.mobile-menu-foot{display:flex;flex-direction:column;gap:17px;margin-top:auto;padding-top:20px}.mobile-menu-foot>a:first-child{color:#666b7d;font-size:12.5px}.mobile-enquire{display:flex;align-items:center;justify-content:space-between;min-height:50px;padding-inline:15px;border-radius:4px;background:var(--ink);color:white;font-size:13.75px;font-weight:700}.mobile-enquire span{color:var(--mint)}.menu-scrim{position:fixed;inset:0;z-index:79;display:block;border:0;background:rgba(11,15,33,.38);opacity:0;visibility:hidden;transition:opacity .25s,visibility .25s}.menu-scrim.is-open{opacity:1;visibility:visible}}
 @media(max-width:1000px){.mobile-menu{overflow-y:auto;overscroll-behavior:contain}}
 .product-photo img{object-fit:contain}
+
+/* Bold text in the homepage at-a-glance strip. */
+#at-a-glance .fact-heading > span:not(.mini-star),
+#at-a-glance .fact-item > strong { font-weight: 800; }
+#at-a-glance .fact-item > span { font-weight: 700; }
+
+/* Bold capabilities text with the original white and mint palette. */
+.materials-band .materials-inner > .mono-label,
+.materials-band .material-pill { font-weight: 800; }
+.materials-band .materials-inner > .mono-label { font-size: 18px; color: #fff; }
+.materials-band .material-symbol {
+  font-weight: 800;
+  border-color: var(--mint);
+  background: rgba(169, 235, 219, .14);
+  box-shadow: 0 0 0 3px rgba(169, 235, 219, .08), 0 0 14px rgba(169, 235, 219, .2);
+  text-shadow: 0 0 8px rgba(169, 235, 219, .4);
+}
+
+/* Quality approval stamp in the existing story badge position. */
+.story-chip.quality-approved-stamp { padding: 3px; justify-content: center; background: #e9f8fc; color: var(--cyan-deep); transform: rotate(-8deg); }
+.quality-approved-stamp svg { display: block; width: 100%; height: 100%; overflow: visible; font-family: var(--heading); }
+
+/* Taller hero frame reveals more of the portrait photograph. */
+.hero .hero-visual { min-height: 680px; }
+@media (max-width: 760px) {
+  .hero .hero-visual { min-height: 450px; }
+}
+@media (max-width: 380px) {
+  .hero .hero-visual { min-height: 390px; }
+}
