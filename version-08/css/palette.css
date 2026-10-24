@@ -1,0 +1,99 @@
+:root{
+  --color-primary: #0F172A;
+  --color-secondary: #2563EB;
+  --color-accent: #10B981;
+  --color-background: #F8FAFC;
+  --color-surface: #FFFFFF;
+  --color-text: #1E293B;
+  --color-muted: #64748B;
+  --alpha-accent-40-00:color-mix(in srgb,var(--color-accent) 40.00%,transparent);
+  --alpha-primary-53-33:color-mix(in srgb,var(--color-primary) 53.33%,transparent);
+  --alpha-secondary-18-82:color-mix(in srgb,var(--color-secondary) 18.82%,transparent);
+  --alpha-secondary-4-71:color-mix(in srgb,var(--color-secondary) 4.71%,transparent);
+  --mix-muted-surface-20:color-mix(in srgb,var(--color-muted) 20%,var(--color-surface));
+  --mix-secondary-background-4:color-mix(in srgb,var(--color-secondary) 4%,var(--color-background));
+  --mix-surface-muted-67:color-mix(in srgb,var(--color-surface) 67%,var(--color-muted));
+  --mix-muted-surface-65:color-mix(in srgb,var(--color-muted) 65%,var(--color-surface));
+  --mix-primary-secondary-80:color-mix(in srgb,var(--color-primary) 80%,var(--color-secondary));
+  --alpha-primary-8-63:color-mix(in srgb,var(--color-primary) 8.63%,transparent);
+  --alpha-surface-98-04:color-mix(in srgb,var(--color-surface) 98.04%,transparent);
+  --alpha-primary-4-31:color-mix(in srgb,var(--color-primary) 4.31%,transparent);
+  --alpha-primary-9-41:color-mix(in srgb,var(--color-primary) 9.41%,transparent);
+  --alpha-accent-2-75:color-mix(in srgb,var(--color-accent) 2.75%,transparent);
+  --alpha-secondary-7-84:color-mix(in srgb,var(--color-secondary) 7.84%,transparent);
+  --alpha-accent-8-24:color-mix(in srgb,var(--color-accent) 8.24%,transparent);
+  --mix-surface-muted-85:color-mix(in srgb,var(--color-surface) 85%,var(--color-muted));
+  --alpha-primary-20-00:color-mix(in srgb,var(--color-primary) 20.00%,transparent);
+  --alpha-surface-70-20:color-mix(in srgb,var(--color-surface) 70.20%,transparent);
+  --alpha-surface-83-14:color-mix(in srgb,var(--color-surface) 83.14%,transparent);
+  --alpha-accent-21-96:color-mix(in srgb,var(--color-accent) 21.96%,transparent);
+  --alpha-accent-14-51:color-mix(in srgb,var(--color-accent) 14.51%,transparent);
+  --alpha-accent-36-86:color-mix(in srgb,var(--color-accent) 36.86%,transparent);
+  --alpha-surface-36-08:color-mix(in srgb,var(--color-surface) 36.08%,transparent);
+  --alpha-accent-3-53:color-mix(in srgb,var(--color-accent) 3.53%,transparent);
+  --alpha-secondary-6-27:color-mix(in srgb,var(--color-secondary) 6.27%,transparent);
+  --alpha-accent-18-82:color-mix(in srgb,var(--color-accent) 18.82%,transparent);
+  --alpha-accent-10-20:color-mix(in srgb,var(--color-accent) 10.20%,transparent);
+  --alpha-surface-12-55:color-mix(in srgb,var(--color-surface) 12.55%,transparent);
+  --alpha-primary-10-20:color-mix(in srgb,var(--color-primary) 10.20%,transparent);
+  --alpha-surface-92-94:color-mix(in srgb,var(--color-surface) 92.94%,transparent);
+  --alpha-primary-12-55:color-mix(in srgb,var(--color-primary) 12.55%,transparent);
+  --alpha-surface-56-86:color-mix(in srgb,var(--color-surface) 56.86%,transparent);
+  --mix-secondary-surface-7:color-mix(in srgb,var(--color-secondary) 7%,var(--color-surface));
+  --alpha-primary-3-92:color-mix(in srgb,var(--color-primary) 3.92%,transparent);
+  --mix-muted-surface-14:color-mix(in srgb,var(--color-muted) 14%,var(--color-surface));
+  --mix-secondary-surface-30:color-mix(in srgb,var(--color-secondary) 30%,var(--color-surface));
+  --mix-secondary-surface-12:color-mix(in srgb,var(--color-secondary) 12%,var(--color-surface));
+  --alpha-primary-66-67:color-mix(in srgb,var(--color-primary) 66.67%,transparent);
+  --alpha-surface-7-06:color-mix(in srgb,var(--color-surface) 7.06%,transparent);
+  --mix-surface-secondary-94:color-mix(in srgb,var(--color-surface) 94%,var(--color-secondary));
+  --alpha-accent-50-20:color-mix(in srgb,var(--color-accent) 50.20%,transparent);
+  --alpha-accent-56-47:color-mix(in srgb,var(--color-accent) 56.47%,transparent);
+  --alpha-muted-43-92:color-mix(in srgb,var(--color-muted) 43.92%,transparent);
+  --mix-secondary-surface-45:color-mix(in srgb,var(--color-secondary) 45%,var(--color-surface));
+  --mix-secondary-surface-17:color-mix(in srgb,var(--color-secondary) 17%,var(--color-surface));
+  --mix-primary-secondary-88:color-mix(in srgb,var(--color-primary) 88%,var(--color-secondary));
+  --alpha-muted-45-88:color-mix(in srgb,var(--color-muted) 45.88%,transparent);
+  --alpha-primary-87-06:color-mix(in srgb,var(--color-primary) 87.06%,transparent);
+  --mix-surface-secondary-90:color-mix(in srgb,var(--color-surface) 90%,var(--color-secondary));
+  --mix-secondary-background-5:color-mix(in srgb,var(--color-secondary) 5%,var(--color-background));
+  --mix-secondary-surface-25:color-mix(in srgb,var(--color-secondary) 25%,var(--color-surface));
+  --mix-secondary-surface-20:color-mix(in srgb,var(--color-secondary) 20%,var(--color-surface));
+  --mix-primary-secondary-84:color-mix(in srgb,var(--color-primary) 84%,var(--color-secondary));
+  --alpha-accent-12-55:color-mix(in srgb,var(--color-accent) 12.55%,transparent);
+  --blue-display:color-mix(in srgb,var(--color-secondary) 58%,var(--color-surface));
+  --footer-text:color-mix(in srgb,var(--color-surface) 72%,var(--color-muted));
+  --footer-line:color-mix(in srgb,var(--color-surface) 18%,transparent);
+}
+
+/* Palette 09 refinements. Geometry, typography, breakpoints and motion stay in
+   the original component styles; this layer changes only the color treatment. */
+h2,h3{color:var(--color-primary)}
+.dark h2,.dark h3{color:var(--color-surface)}
+::selection{background:var(--color-accent);color:var(--color-primary)}
+.button,.button-blue,.header-quote{background:var(--color-secondary);color:var(--color-surface)}
+.button:hover,.button-blue:hover,.header-quote:hover{background:color-mix(in srgb,var(--color-secondary) 82%,var(--color-primary));color:var(--color-surface)}
+.hero .headline-accent,.manufacturing-heading h2>span,.global h2>span,.contact h2>span{color:var(--blue-display)}
+.hero-glow{background:radial-gradient(ellipse at 56% 35%,color-mix(in srgb,var(--color-secondary) 16%,transparent),transparent 58%),radial-gradient(ellipse at 30% 90%,color-mix(in srgb,var(--color-accent) 8%,transparent),transparent 55%)}
+.hero-grid{background-image:linear-gradient(color-mix(in srgb,var(--color-secondary) 9%,transparent) 1px,transparent 1px),linear-gradient(90deg,color-mix(in srgb,var(--color-secondary) 9%,transparent) 1px,transparent 1px)}
+.orbit-one{border-top-color:color-mix(in srgb,var(--color-secondary) 45%,transparent);border-right-color:color-mix(in srgb,var(--color-secondary) 45%,transparent)}
+.orbit-two{border-color:color-mix(in srgb,var(--color-secondary) 25%,transparent)}
+.glass-sphere{border-color:color-mix(in srgb,var(--color-secondary) 45%,var(--color-surface));background:radial-gradient(circle at 26% 23%,color-mix(in srgb,var(--color-surface) 36%,transparent),color-mix(in srgb,var(--color-secondary) 7%,transparent) 35%,color-mix(in srgb,var(--color-secondary) 12%,transparent) 65%,color-mix(in srgb,var(--color-secondary) 27%,transparent));box-shadow:inset -4px -3px 12px color-mix(in srgb,var(--color-secondary) 15%,transparent),inset 2px 2px 7px color-mix(in srgb,var(--color-surface) 15%,transparent),0 14px 25px color-mix(in srgb,var(--color-primary) 10%,transparent)}
+.hero-orbit::after,.live-dot{background:var(--color-accent)}
+.product-card{background:var(--color-surface)}
+.product-card:hover{background:color-mix(in srgb,var(--color-secondary) 5%,var(--color-surface));border-color:color-mix(in srgb,var(--color-secondary) 30%,var(--color-surface))}
+.product-card .round-arrow,.product-card-bottom>span{color:var(--color-secondary)}
+.product-card:hover .round-arrow{background:var(--color-secondary);color:var(--color-surface)}
+.global{background:radial-gradient(ellipse at 60% 50%,color-mix(in srgb,var(--color-primary) 86%,var(--color-secondary)),var(--color-primary) 70%)}
+.map-location i{background:var(--color-accent);border-color:var(--color-surface);box-shadow:0 0 0 7px color-mix(in srgb,var(--color-secondary) 24%,transparent),0 0 0 15px color-mix(in srgb,var(--color-accent) 8%,transparent)}
+.contact{background:radial-gradient(ellipse at 80% 60%,color-mix(in srgb,var(--color-primary) 80%,var(--color-secondary)),var(--color-primary) 65%)}
+.footer{background:var(--color-primary);color:var(--color-surface)}
+.footer .brand img{filter:brightness(0) invert(1)}
+.footer-brand p,.footer-column,.footer-bottom,.photo-credits{color:var(--footer-text)}
+.footer-column h2,.footer-brand .text-link,.footer-bottom>a{color:var(--color-surface)}
+.footer-brand .text-link,.footer-bottom,.footer-address{border-color:var(--footer-line)}
+.footer-column a:hover,.footer-address a:last-child,.photo-credits a:hover{color:var(--blue-display)}
+.footer .text-link:hover{color:var(--color-accent);border-color:var(--color-accent)}
+.footer :focus-visible{outline-color:var(--color-accent)}
+
+.precision-graphic circle[fill]{fill:var(--color-accent)}
